@@ -36,8 +36,8 @@ function pronounceWord(word, gender = "female") {
     utterance.voice = selectedVoice;
   }
 
-    utterance.lang = "bn-IN"; //"en-US"; American , "en-GB"; British , "en-AU" Australian
-  utterance.rate = 0.9;  // speed 0.7 >1.5
+    utterance.lang = "en-AU"; //"en-US"; American , "en-GB"; British , "en-AU" Australian
+  utterance.rate = 1;  // speed 0.7 >1.5
   utterance.pitch = 1.5; // tone 0.5; Deep voice > 1.8; High voice
   utterance.volume = 1; // volume 0.5; 50% volume > 1;  Full volume
 
